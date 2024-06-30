@@ -1,0 +1,88 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Roboto';
+}
+section
+{
+    min-height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/beautiful-sunset-beach-landscape-with-boat_1112-212.jpg?t=st=1715852781~exp=1715856381~hmac=89be0c12a2be2139a867c6a8c1615891a06ca0f800f71aedb7412d65e95dbd2f&w=996");
+
+    background-color:rgb(161, 161, 124) ;
+    background-repeat: repeat-y repeat-x;
+    background-size: cover;
+}
+.container
+{
+    width: 85%;
+    margin: auto;
+}
+nav
+{
+    height: 80px;
+
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color:#eb7620;
+}
+nav ul{
+    float: right;
+    
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color:#fff;
+    font-weight: bold;
+     text-decoration: none;
+     text-transform: uppercase;
+     border-radius: 5px;
+     padding:7px 8px;  
+}
+nav ul li a:hover{
+    background-color:#46a9bf;
+    transition: 0.5% ease;
+}
+.article{
+    width:50%;
+    margin:auto;
+    text-align:center;
+    transform:translateY(25vh);
+}
+.article h1{
+    font-size: 36px;
+    color:#fff;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+    margin-bottom:25px;
+}
+.article p{
+    font-size: 18px;
+    color:#b68f3b;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom:50px;
+}
+.article .btn
+{
+    color:#485664;
+    padding:12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color:#fff;
+    border-radius: 12px;
+    border-width: 10px;
+}
+.article .btn:hover{
+    background-color:#46a9bf;
+}
